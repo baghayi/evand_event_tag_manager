@@ -46,10 +46,6 @@ function listEventTags(slug, jwt) {
 
                     saveTags(filteredTags, slug, jwt);
                 };
-                removeTag.onclick = function(){
-                    let help = document.getElementById('how-to-remove-tag');
-                    help.style.display = "inline";
-                };
 
                 let li = document.createElement('li');
                 li.append(removeTag);
