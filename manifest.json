@@ -1,15 +1,13 @@
 {
-    "name": "Evand Hossein",
+    "name": "Tag Manager",
     "version": "1.0",
-    "description": "This extension is supposed to make Hossein's life much much easier.",
+    "description": "Evand Event Tag Manager",
     "permissions": ["https://api.evand.com/", "tabs", "storage", "https://evand.com/"],
     "browser_action": {
     },
     "background": {
         "scripts": [
-            "tasks/DisplayTotalUnreadMessages.js",
-            "tasks/StartingScreenSelector.js",
-            "tasks/EventWebinarLoginBox.js"
+            "tasks/StartingScreenSelector.js"
         ],
         "persistent": false
     },

@@ -27,10 +27,6 @@ function loadProperPopup(jwt, page) {
     
     switch(page){
         case 'Homepage':
-            loadView('views/homepage.html');
-            break;
-
-        case 'EventTags':
             loadView('views/event-tags.html');
             break;
     }
