@@ -4,6 +4,7 @@ function gotoPage (page, jwtToken) {
         goto: page,
         jwt: jwtToken
     });
+    window.close();
 }
 
 function logUserIn (email, password) {

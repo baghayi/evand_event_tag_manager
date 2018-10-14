@@ -102,11 +102,6 @@ main.run(function(jwt, tabUrl){
         });
     }
 
-
-    document.getElementById('homepage').addEventListener('click', function(){
-        main.gotoPage('Homepage', jwt);
-    });
-
 });
 
 
